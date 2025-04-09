@@ -1,22 +1,34 @@
 # SalesDataAnalysis
 
-In 2020, a dynamic online shop specializing in plans and accessories was founded in Germany. With a focus on quality and customer satisfaction, the shop quickly gained traction and expanded its operations to the Netherlands shortly after. Buoyed by its success, the shop ventured into Southern Europe, establishing a presence in Spain and Italy. Most recently, the shop expanded to the UK and Ireland, marking its entry into the English-speaking market.
+In 2020, a hypotetical dynamic online shop specializing in plans and accessories was founded in Germany. With a focus on quality and customer satisfaction, the shop quickly gained traction and expanded its operations to the Netherlands shortly after. Buoyed by its success, the shop ventured into Southern Europe, establishing a presence in Spain and Italy. Most recently, the shop expanded to the UK and Ireland, marking its entry into the English-speaking market.
 This project aims to analyze the shop's sales performance, customer behavior, and operational efficiency using a synthetic database that simulates real-world scenarios.
 
 1.	Goal and key questions of the analysis
 
 Objective of the Analysis
+
 •	Main Goal: Increase profit by optimizing sales strategies, reducing costs, and improving customer satisfaction.
+
 •	Key Questions:
+
 o	Which products and categories have the highest profit margins?
+
 o	Are there underperforming products or regions that need attention?
+
 o	How can we reduce costs (e.g., shipping, returns) without compromising customer satisfaction?
+
 o	Which customer segments are most profitable, and how can we target them better?
+
 This project seeks to uncover actionable insights from the synthetic data, including:
+
 •	Sales Performance: Identify top-performing products, categories, and regions.
+
 •	Customer Insights: Understand customer behavior, preferences, and loyalty.
+
 •	Inventory Efficiency: Analyze inventory management practices and their impact on sales.
+
 •	Marketing Effectiveness: Evaluate the success of marketing campaigns in driving sales.
+
 •	Returns Analysis: Investigate the reasons behind returns and their impact on profitability.
 
 2.	 Sythetical dataset
