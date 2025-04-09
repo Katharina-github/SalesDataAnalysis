@@ -3,7 +3,7 @@
 In 2020, a dynamic online shop specializing in plans and accessories was founded in Germany. With a focus on quality and customer satisfaction, the shop quickly gained traction and expanded its operations to the Netherlands shortly after. Buoyed by its success, the shop ventured into Southern Europe, establishing a presence in Spain and Italy. Most recently, the shop expanded to the UK and Ireland, marking its entry into the English-speaking market.
 This project aims to analyze the shop's sales performance, customer behavior, and operational efficiency using a synthetic database that simulates real-world scenarios.
 
-2.	Goal and key questions of the analysis
+1.	Goal and key questions of the analysis
 
 Objective of the Analysis
 •	Main Goal: Increase profit by optimizing sales strategies, reducing costs, and improving customer satisfaction.
@@ -19,7 +19,7 @@ This project seeks to uncover actionable insights from the synthetic data, inclu
 •	Marketing Effectiveness: Evaluate the success of marketing campaigns in driving sales.
 •	Returns Analysis: Investigate the reasons behind returns and their impact on profitability.
 
-3.	 Sythetical dataset
+2.	 Sythetical dataset
 
 The database includes the following tables:
 1.	products_df: Contains information about the products, including categories, popularity scores, and pricing.
