@@ -6,6 +6,8 @@ In 2020, a dynamic online shop specializing in plans and accessories was founded
  
 This project aims to analyze the shop's sales performance, customer behavior, and operational efficiency using a synthetic database that simulates real-world scenarios.
 
+![Botanika Logo](images/Botanika_logo.png)
+
 2.	Goal and key questions of the analysis
    
 Objective of the Analysis
