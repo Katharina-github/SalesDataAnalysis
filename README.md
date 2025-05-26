@@ -9,6 +9,7 @@ This project aims to analyze the shop's sales performance, customer behavior, an
 2.	Goal and key questions of the analysis
    
 Objective of the Analysis
+
 Main Goal: Increase profit by optimizing sales strategies, reducing costs, and improving customer satisfaction.
 
 Key Questions:
@@ -20,6 +21,7 @@ Key Questions:
 •	How can we reduce costs (e.g., shipping, returns) without compromising customer satisfaction?
 
 •	Which customer segments are most profitable, and how can we target them better?
+
 
 This project seeks to uncover actionable insights from the synthetic data, including:
 
