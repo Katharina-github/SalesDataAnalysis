@@ -1,11 +1,13 @@
 # Analyzing Sales Data for a Hypothetical Gardening Online Shop
 
 1.	Introduction
+   
 In 2020, a dynamic online shop specializing in plans and accessories was founded in Germany. With a focus on quality and customer satisfaction, the shop quickly gained traction and expanded its operations to the Netherlands shortly after. Buoyed by its success, the shop ventured into Southern Europe, establishing a presence in Spain and Italy. Most recently, the shop expanded to the UK and Ireland, marking its entry into the English-speaking market.
  
 This project aims to analyze the shop's sales performance, customer behavior, and operational efficiency using a synthetic database that simulates real-world scenarios.
 
 2.	Goal and key questions of the analysis
+   
 Objective of the Analysis
 Main Goal: Increase profit by optimizing sales strategies, reducing costs, and improving customer satisfaction.
 Key Questions:
@@ -23,6 +25,7 @@ This project seeks to uncover actionable insights from the synthetic data, inclu
 3.	 Sythetical dataset
 
 The database includes the following tables:
+
 1.	products_df: Contains information about the products, including categories, popularity scores, and pricing.
 2.	customers_df: Stores customer details such as demographics, loyalty scores, segments (retail vs. wholesale), and buying preferences.
 3.	sales_df: Records all sales transactions, including product IDs, customer IDs, sales amounts, and dates.
@@ -32,7 +35,10 @@ The database includes the following tables:
 7.	not_realized_purchases_df: Captures failed purchase attempts due to insufficient inventory.
 8.	inventory_snapshots_df: Contains two snapshots of the stock levels of the products per day
 Key Features of the Synthetic Data
+
+
 To ensure the data reflects real-world dynamics, the following features were incorporated:
+
 1.	Seasonal influence:
 o	General seasonality: Sales fluctuate based on the time of year, with variations across countries.
 o	Product category seasonality: Certain product categories experience higher demand during specific seasons.
@@ -40,8 +46,8 @@ o	Product category seasonality: Certain product categories experience higher dem
 o	Products are assigned a popularity score, which influences their sales frequency. Popular products are sold more often.
 3.	Customer behavior:
 o	Segmentation: Customers are divided into retail and wholesale segments, each with distinct buying behaviors.
-	Retail customers: Tend to buy smaller quantities but more frequently.
-	Wholesale customers: Purchase larger quantities but less frequently.
+ - Retail customers: Tend to buy smaller quantities but more frequently.
+ - Wholesale customers: Purchase larger quantities but less frequently.
 o	Price sensitivity: Products with high prices are purchased in lower quantities.
 o	Age preferences: Customers exhibit buying preferences based on their age.
 o	Loyalty scores: Customers with higher loyalty scores purchase more frequently.
