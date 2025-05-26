@@ -40,24 +40,31 @@ Key Features of the Synthetic Data
 To ensure the data reflects real-world dynamics, the following features were incorporated:
 
 1.	Seasonal influence:
+   
 o	General seasonality: Sales fluctuate based on the time of year, with variations across countries.
 o	Product category seasonality: Certain product categories experience higher demand during specific seasons.
 2.	Product popularity:
+
 o	Products are assigned a popularity score, which influences their sales frequency. Popular products are sold more often.
 3.	Customer behavior:
+
 o	Segmentation: Customers are divided into retail and wholesale segments, each with distinct buying behaviors.
  - Retail customers: Tend to buy smaller quantities but more frequently.
  - Wholesale customers: Purchase larger quantities but less frequently.
 o	Price sensitivity: Products with high prices are purchased in lower quantities.
 o	Age preferences: Customers exhibit buying preferences based on their age.
 o	Loyalty scores: Customers with higher loyalty scores purchase more frequently.
+
 4.	Marketing campaigns:
+   
 o	The shop launched 12 marketing campaigns, each designed to boost sales in a specific country for a limited time. These campaigns are reflected in the campaigns_df table.
 5.	Inventory management:
+
 o	The sales_df and inventory_df tables are interconnected. When a sale occurs, the inventory is reduced.
 o	If inventory levels fall below the reorder point, new stock is added to prevent shortages.
 o	Sales that cannot be fulfilled due to insufficient inventory are recorded in the not_realized_purchases_df table.
 o	The stock levels of the products are recorded twice a day (before and after restocking)
 6.	Returns:
+
 o	The likelihood of returns is influenced by the product category. For example, certain categories may have higher return rates due to customer dissatisfaction or product defects
 
