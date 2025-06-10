@@ -1,100 +1,159 @@
 # Analyzing Sales Data for a Hypothetical Gardening Online Shop
+Analyzing Sales Data for a Hypothetical Gardening Online Shop
 
-1.	Introduction
-   
-In 2020, a dynamic online shop specializing in plans and accessories was founded in Germany. With a focus on quality and customer satisfaction, the shop quickly gained traction and expanded its operations to the Netherlands shortly after. Buoyed by its success, the shop ventured into Southern Europe, establishing a presence in Spain and Italy. Most recently, the shop expanded to the UK and Ireland, marking its entry into the English-speaking market.
- 
-This project aims to analyze the shop's sales performance, customer behavior, and operational efficiency using a synthetic database that simulates real-world scenarios.
+This repository contains a complete end-to-end analytics project for Botanika, a simulated gardening e-commerce business. It covers data modeling, SQL analysis, advanced Python analytics, and an interactive Power BI dashboard to drive strategic decisions.
 
 ![Botanika Logo](images/Botanika_logo.png)
 
-2.	Goal and key questions of the analysis
-   
-Objective of the Analysis
+📑 Table of Contents
 
-Main Goal: Increase profit by optimizing sales strategies, reducing costs, and improving customer satisfaction.
+Introduction
+
+Goals & Key Questions
+
+Synthetic Dataset & Preparation
+
+Generated Tables
+
+Key Features of the Synthetic Data
+
+Data Quality & Preprocessing
+
+Analysis Roadmap (SQL)
+
+Business KPIs
+
+Sales Performance
+
+Customer Insights
+
+Inventory Efficiency
+
+Marketing Effectiveness
+
+Returns Analysis
+
+Advanced Analytics (Python)
+
+Customer Segmentation
+
+Churn Prediction
+
+Recommendation Engine
+
+Pricing & Campaign Optimization
+
+Sales Forecasting
+
+Inventory Optimization
+
+Interactive Dashboards & Storytelling
+
+Executive Summary
+
+Sales Performance
+
+Customer Insight
+
+Inventory Efficiency
+
+Marketing & Campaigns
+
+Returns & Profitability
+
+Conclusion
+
+Introduction
+
+In 2020, Botanika launched in Germany as an online shop for gardening supplies. After rapid growth, it expanded to the Netherlands, Spain, Italy, the UK, and Ireland. This project simulates a real-world sales database to analyze performance, customer behavior, inventory, marketing ROI, and returns.
+
+Goals & Key Questions
+
+Main Goal: Increase profitability by optimizing sales strategies, reducing costs, and enhancing customer satisfaction.
 
 Key Questions:
 
-•	Which products and categories have the highest profit margins?
+Which products and categories yield the highest profit margins?
 
-•	Are there underperforming products or regions that need attention?
+Where are underperforming products or regions?
 
-•	How can we reduce costs (e.g., shipping, returns) without compromising customer satisfaction?
+How can costs (shipping, returns) be minimized?
 
-•	Which customer segments are most profitable, and how can we target them better?
+Which customer segments drive the most value?
 
+Synthetic Dataset & Preparation
 
-This project seeks to uncover actionable insights from the synthetic data, including:
+Generated Tables
 
-•	Sales Performance: Identify top-performing products, categories, and regions.
+products_df, customers_df, sales_df, returns_df, campaigns_df, inventory_df, not_realized_purchases_df, inventory_snapshots_df.
 
-•	Customer Insights: Understand customer behavior, preferences, and loyalty.
+Key Features
 
-•	Inventory Efficiency: Analyze inventory management practices and their impact on sales.
+Seasonality by country and category
 
-•	Marketing Effectiveness: Evaluate the success of marketing campaigns in driving sales.
+Popularity-based sales frequency
 
-•	Returns Analysis: Investigate the reasons behind returns and their impact on profitability.
+Segmented customer behavior (retail vs. wholesale)
 
-3.	 Sythetical dataset
+Campaign effects, stock reductions, and restocking logic
 
-The database includes the following tables:
+Return probabilities by category
 
-1.	products_df: Contains information about the products, including categories, popularity scores, and pricing.
-2.	customers_df: Stores customer details such as demographics, loyalty scores, segments (retail vs. wholesale), and buying preferences.
-3.	sales_df: Records all sales transactions, including product IDs, customer IDs, sales amounts, and dates.
-4.	returns_df: Tracks returned items, including reasons for returns and associated product categories.
-5.	campaigns_df: Documents marketing campaigns and their impact on sales in specific regions.
-6.	inventory_df: Manages stock levels, reorder points, and inventory replenishment.
-7.	not_realized_purchases_df: Captures failed purchase attempts due to insufficient inventory.
-8.	inventory_snapshots_df: Contains two snapshots of the stock levels of the products per day
+Data Quality & Preprocessing
 
-   
-Key Features of the Synthetic Data
+Row counts, missing values, and integrity checks
 
+Anomalies detection and handling
 
-To ensure the data reflects real-world dynamics, the following features were incorporated:
+Foreign key validation
 
-1.	Seasonal influence:
-   
-o	General seasonality: Sales fluctuate based on the time of year, with variations across countries.
+Analysis Roadmap (SQL)
 
-o	Product category seasonality: Certain product categories experience higher demand during specific seasons.
+Business KPIs: Total revenue, profit, margin, order counts
 
-2.	Product popularity:
+Sales Performance: Profitability, regional trends, seasonality
 
-o	Products are assigned a popularity score, which influences their sales frequency. Popular products are sold more often.
+Customer Insights: CLV, churn rate, loyalty impact, RFM segments
 
-3.	Customer behavior:
+Inventory Efficiency: Turnover ratio, stockout & overstock rates
 
-o	Segmentation: Customers are divided into retail and wholesale segments, each with distinct buying behaviors.
+Marketing Effectiveness: Campaign ROI, conversion rates
 
- - Retail customers: Tend to buy smaller quantities but more frequently.
-   
- - Wholesale customers: Purchase larger quantities but less frequently.
+Returns Analysis: Return rates, reasons, and profit impact
 
-o	Price sensitivity: Products with high prices are purchased in lower quantities.
+Advanced Analytics (Python)
 
-o	Age preferences: Customers exhibit buying preferences based on their age.
+Clustering & RFM Segmentation
 
-o	Loyalty scores: Customers with higher loyalty scores purchase more frequently.
+Churn Prediction Models
 
-4.	Marketing campaigns:
-   
-o	The shop launched 12 marketing campaigns, each designed to boost sales in a specific country for a limited time. These campaigns are reflected in the campaigns_df table.
+LightFM-based Recommendation System
 
-5.	Inventory management:
+Price Elasticity & Discount Strategy
 
-o	The sales_df and inventory_df tables are interconnected. When a sale occurs, the inventory is reduced.
+Campaign Uplift Analysis
 
-o	If inventory levels fall below the reorder point, new stock is added to prevent shortages.
+XGBoost Sales Forecasting
 
-o	Sales that cannot be fulfilled due to insufficient inventory are recorded in the not_realized_purchases_df table.
+Inventory Optimization Simulations
 
-o	The stock levels of the products are recorded twice a day (before and after restocking)
+Interactive Dashboards & Storytelling
 
-6.	Returns:
+A Power BI report with six pages, each offering interactive slicers and visuals:
 
-o	The likelihood of returns is influenced by the product category. For example, certain categories may have higher return rates due to customer dissatisfaction or product defects
+Executive Summary
+
+Sales Performance
+
+Customer Insight
+
+Inventory Efficiency
+
+Marketing & Campaigns
+
+Returns & Profitability
+
+Conclusion
+
+This project demonstrates how synthetic data can be transformed into actionable insights using SQL, Python, and Power BI. It provides a robust framework for retailers to optimize pricing, marketing, inventory, and customer engagement.
 
