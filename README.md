@@ -153,6 +153,8 @@ Marketing & Campaigns
 
 Returns & Profitability
 
+Link to watch a short presentation of the Power BI report: https://youtu.be/mG_T3N05vgo
+
 Conclusion
 
 This project demonstrates how synthetic data can be transformed into actionable insights using SQL, Python, and Power BI. It provides a robust framework for retailers to optimize pricing, marketing, inventory, and customer engagement.
