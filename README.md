@@ -1,77 +1,82 @@
 # Analyzing Sales Data for a Hypothetical Gardening Online Shop
-Analyzing Sales Data for a Hypothetical Gardening Online Shop
 
 This repository contains a complete end-to-end analytics project for Botanika, a simulated gardening e-commerce business. It covers data modeling, SQL analysis, advanced Python analytics, and an interactive Power BI dashboard to drive strategic decisions.
 
 ![Botanika Logo](images/Botanika_logo.png)
 
-📑 Table of Contents
+---
 
-Introduction
+## Table of Contents
 
-Goals & Key Questions
+1. Introduction
 
-Synthetic Dataset & Preparation
+2. Goals & Key Questions
 
-Generated Tables
+3. Synthetic Dataset & Preparation
 
-Key Features of the Synthetic Data
+4. Generated Tables
 
-Data Quality & Preprocessing
+5. Key Features of the Synthetic Data
 
-Analysis Roadmap (SQL)
+6. Data Quality & Preprocessing
 
-Business KPIs
+7. Analysis Roadmap (SQL)
 
-Sales Performance
+  - Business KPIs
 
-Customer Insights
+  - Sales Performance
 
-Inventory Efficiency
+  - Customer Insights
 
-Marketing Effectiveness
+  - Inventory Efficiency
 
-Returns Analysis
+  - Marketing Effectiveness
 
-Advanced Analytics (Python)
+  - Returns Analysis
 
-Customer Segmentation
+8. Advanced Analytics (Python)
 
-Churn Prediction
+  - Customer Segmentation
 
-Recommendation Engine
+  - Churn Prediction
 
-Pricing & Campaign Optimization
+  - Recommendation Engine
 
-Sales Forecasting
+  - Pricing & Campaign Optimization
 
-Inventory Optimization
+  - Sales Forecasting
 
-Interactive Dashboards & Storytelling
+  - Inventory Optimization
 
-Executive Summary
+9. Interactive Dashboards & Storytelling
 
-Sales Performance
+  - Executive Summary
 
-Customer Insight
+  - Sales Performance
 
-Inventory Efficiency
+  - Customer Insight
 
-Marketing & Campaigns
+  - Inventory Efficiency
 
-Returns & Profitability
+  - Marketing & Campaigns
 
-Conclusion
+  - Returns & Profitability
 
-Introduction
+10. Conclusion
+
+---
+
+## Introduction
 
 In 2020, Botanika launched in Germany as an online shop for gardening supplies. After rapid growth, it expanded to the Netherlands, Spain, Italy, the UK, and Ireland. This project simulates a real-world sales database to analyze performance, customer behavior, inventory, marketing ROI, and returns.
 
-Goals & Key Questions
+---
 
-Main Goal: Increase profitability by optimizing sales strategies, reducing costs, and enhancing customer satisfaction.
+## Goals & Key Questions
 
-Key Questions:
+### Main Goal: Increase profitability by optimizing sales strategies, reducing costs, and enhancing customer satisfaction.
+
+### Key Questions:
 
 Which products and categories yield the highest profit margins?
 
@@ -81,13 +86,15 @@ How can costs (shipping, returns) be minimized?
 
 Which customer segments drive the most value?
 
-Synthetic Dataset & Preparation
+---
 
-Generated Tables
+## Synthetic Dataset & Preparation
+
+### Generated Tables
 
 products_df, customers_df, sales_df, returns_df, campaigns_df, inventory_df, not_realized_purchases_df, inventory_snapshots_df.
 
-Key Features
+### Key Features
 
 Seasonality by country and category
 
@@ -99,7 +106,7 @@ Campaign effects, stock reductions, and restocking logic
 
 Return probabilities by category
 
-Data Quality & Preprocessing
+### Data Quality & Preprocessing
 
 Row counts, missing values, and integrity checks
 
@@ -107,7 +114,9 @@ Anomalies detection and handling
 
 Foreign key validation
 
-Analysis Roadmap (SQL)
+---
+
+## Analysis Roadmap (SQL)
 
 Business KPIs: Total revenue, profit, margin, order counts
 
@@ -121,7 +130,9 @@ Marketing Effectiveness: Campaign ROI, conversion rates
 
 Returns Analysis: Return rates, reasons, and profit impact
 
-Advanced Analytics (Python)
+---
+
+## Advanced Analytics (Python)
 
 Clustering & RFM Segmentation
 
@@ -137,7 +148,9 @@ XGBoost Sales Forecasting
 
 Inventory Optimization Simulations
 
-Interactive Dashboards & Storytelling
+---
+
+## Interactive Dashboards & Storytelling
 
 A Power BI report with six pages, each offering interactive slicers and visuals:
 
@@ -155,7 +168,9 @@ Returns & Profitability
 
 Link to watch a short presentation of the Power BI report: https://youtu.be/mG_T3N05vgo
 
-Conclusion
+---
+
+## Conclusion
 
 This project demonstrates how synthetic data can be transformed into actionable insights using SQL, Python, and Power BI. It provides a robust framework for retailers to optimize pricing, marketing, inventory, and customer engagement.
 
