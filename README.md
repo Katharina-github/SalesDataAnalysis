@@ -95,19 +95,19 @@ products_df, customers_df, sales_df, returns_df, campaigns_df, inventory_df, not
 
 Synthetic Data Generation
 
-        ↓
+↓
         
 Data Cleaning & Validation (Python + SQL)
 
-        ↓
+↓
 
 Exploratory & KPI Analysis (SQL)
 
-        ↓
+↓
         
 Predictive Modeling & Simulations (Python)
 
-        ↓
+↓
         
 Interactive Visualization (Power BI)
 
