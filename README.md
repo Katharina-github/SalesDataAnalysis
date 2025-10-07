@@ -22,7 +22,7 @@ Data-Driven Insights for a Simulated Gardening Business
 
 ## 🧰 Tech Stack
 
-🗄️ SQL (PostgreSQL) | 🐍 Python (Pandas, Scikit-learn, LightFM, XGBoost) | 📊 Power BI | 🧠 Machine Learning |
+🗄️ SQL (PostgreSQL) | 🐍 Python (Pandas, Scikit-learn, LightFM, XGBoost) | 📊 Power BI | 🧠 Machine Learning
 
 ---
 
