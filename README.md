@@ -91,7 +91,7 @@ products_df, customers_df, sales_df, returns_df, campaigns_df, inventory_df, not
 
 ---
 
-### Data Flow Overview
+## 🔄 Data Flow Overview
 
 Synthetic Data Generation
 
