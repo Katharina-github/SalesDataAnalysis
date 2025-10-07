@@ -166,7 +166,7 @@ Interactive Visualization (Power BI)
 
 | Analysis Type                       | Description                                    | Example Visual                                             |
 | ----------------------------------- | ---------------------------------------------- | ---------------------------------------------------------- |
-| **Customer Segmentation**           | K-Means clustering with RFM metrics            | ![Customer_Segments](Customer_Segments.png)                |
+| **Customer Segmentation**           | K-Means clustering with RFM metrics            | ![Customer_Segments](images/Customer_Segments.png)                |
 | **Churn Prediction**                | XGBoost model with SHAP feature importance     | ![Churn_per_Risk_Tier](images/Churn_per_Risk_Tier.png)     |
 | **Recommendation Engine**           | Personalized product suggestions using LightFM | ![Recommendations](images/Recommendations.png)             |
 | **Pricing & Campaign Optimization** | Price elasticity and uplift modeling           | ![discount_analysis](images/discount_analysis.png)         |
